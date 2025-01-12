@@ -1,0 +1,43 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - greetings
+      - good morning
+
+  - intent: goodbye
+    examples: |
+      - bye
+      - goodbye
+      - see you later
+      - good night
+
+  - intent: league_specific_question
+    examples: |
+      - Show me the Premier League table.
+      - Show me upcoming fixtures.
+      - Who's the top scorer?
+      - When is Arsenal's next match?
+      - When do Manchester United play next?
+      - When is Liverpool's next game?
+      - when do Newcastle play?
+      - Show me the relegation zone.
+      - Who's in the Champions League spots?
+      - Show me this weekend's fixtures.
+
+  - intent: generic_football_question
+    examples: |
+      - How many players does each team have?
+      - What are the dimensions of a football pitch?
+      - How big is a football ground?
+      - What is offside in football?
+      - How is a penalty kick taken?
+      - What is a corner kick?
+      - How many halves in a football match?
+      - What is the role of a referee in football?
+      - What is a red card?
+      - What is a yellow card?

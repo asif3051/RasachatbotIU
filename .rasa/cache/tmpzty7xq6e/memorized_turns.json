@@ -1,0 +1,11 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB2fk5qYXpoaX5KYlJNaWxsLADD8H+Y=": "action_fetch_league_data",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB2fk5qYXpoaX5KYlJNaS5xxaaklyRkwjSmJJYnEmBwLAHebQmE=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB1fkl8QX5ycX5RaVFxbGwsAE1wfvw==": "action_fetch_league_data",
+    "eJyNjNEJgDAMBVfpAE7gKiIh1KjFmpYk9ad0dws6QP/e8Y5baptczUIPoLeQeHb1G8B40+x+iEGNuLtFSboTuKP1Wy+wlEF9EhJtY7WdzJ8QCY9CsKHhQHh9AQxRQhM=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB2fnpqXWpSZXFsbCwCWQR3p": "action_query_llm",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB2fnpqXWpSZXEucSYWlqUWV8Tk5uQQMiwUAB1I7bA==": "action_listen"
+  }
+}

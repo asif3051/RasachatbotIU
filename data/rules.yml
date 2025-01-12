@@ -1,0 +1,22 @@
+version: "3.1"
+
+rules:
+  - rule: Respond to greet
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - rule: Respond to goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - rule: Handle league specific questions
+    steps:
+      - intent: league_specific_question
+      - action: action_handle_league_question
+
+  - rule: Handle generic questions
+    steps:
+      - intent: generic_football_question
+      - action: action_handle_generic_question

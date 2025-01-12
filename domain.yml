@@ -1,0 +1,23 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - league_specific_question
+  - generic_football_question
+
+entities:
+  - league
+  - team
+  - season
+
+responses:
+  utter_greet:
+    - text: "Hello! I'm your football assistant. Ask me anything about football!"
+  
+  utter_goodbye:
+    - text: "Goodbye! Have a great day!"
+
+actions:
+  - action_handle_league_question
+  - action_handle_generic_question

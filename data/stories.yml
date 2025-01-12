@@ -1,0 +1,59 @@
+version: "3.1"
+
+stories:
+- story: greet and goodbye
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: ask league specific question
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: league_specific_question
+  - action: action_handle_league_question
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: ask generic football question
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: generic_football_question
+  - action: action_handle_generic_question
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: multiple league questions
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: league_specific_question
+  - action: action_handle_league_question
+  - intent: league_specific_question
+  - action: action_handle_league_question
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: mix of league and generic questions
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: league_specific_question
+  - action: action_handle_league_question
+  - intent: generic_football_question
+  - action: action_handle_generic_question
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: just league question
+  steps:
+  - intent: league_specific_question
+  - action: action_handle_league_question
+
+- story: just generic question
+  steps:
+  - intent: generic_football_question
+  - action: action_handle_generic_question
